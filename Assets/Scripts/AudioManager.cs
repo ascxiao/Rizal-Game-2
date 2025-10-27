@@ -47,6 +47,8 @@ public class AudioManager : MonoBehaviour
             sfxSource = gameObject.AddComponent<AudioSource>();
             sfxSource.loop = false;
             sfxSource.playOnAwake = false;
+
+            LoadVolumeSettings();
         }
         else
         {
@@ -133,17 +135,18 @@ public class AudioManager : MonoBehaviour
         bgmSource.Stop();
     }
 
-    // Volume Control - Direct Set (for sliders)
     public void SetBGMVolume(float volume)
     {
         bgmVolume = Mathf.Clamp01(volume);
         bgmSource.volume = bgmVolume;
+        SaveVolumeSettings();
     }
 
     public void SetSFXVolume(float volume)
     {
         sfxVolume = Mathf.Clamp01(volume);
         sfxSource.volume = sfxVolume;
+        SaveVolumeSettings();
     }
 
     // Volume Control - Increment/Decrement (for buttons)
@@ -176,5 +179,22 @@ public class AudioManager : MonoBehaviour
     public float GetSFXVolume()
     {
         return sfxVolume;
+    }
+
+    // Save/Load Volume Settings
+    private void SaveVolumeSettings()
+    {
+        PlayerPrefs.SetFloat("BGMVolume", bgmVolume);
+        PlayerPrefs.SetFloat("SFXVolume", sfxVolume);
+        PlayerPrefs.Save();
+    }
+
+    private void LoadVolumeSettings()
+    {
+        bgmVolume = PlayerPrefs.GetFloat("BGMVolume", 1f); // Default to 1f if not found
+        sfxVolume = PlayerPrefs.GetFloat("SFXVolume", 1f);
+        
+        bgmSource.volume = bgmVolume;
+        sfxSource.volume = sfxVolume;
     }
 }
