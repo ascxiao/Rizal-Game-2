@@ -48,3 +48,4 @@ MonoBehaviour:
   cutsceneBGM: {fileID: 8300000, guid: 9304edd47fe20be458f6fabb4b11b485, type: 3}
   gameBGM: {fileID: 8300000, guid: 813ebde9f0d6b31418ae903a25ed96c9, type: 3}
   clickSFX: {fileID: 8300000, guid: 11006c52a1b875e40b2973d5c16865dc, type: 3}
+  volumeIncrement: 0.1
