@@ -24,4 +24,30 @@ public class CorrectItem : MonoBehaviour
         GrayBG.SetActive(true);
         UnsentLetter.SetActive(true);
     }
+
+    public void DraftWithSketch()
+    {
+        GrayBG.SetActive(true);
+        Draft.SetActive(true);
+    }
+    public void CandleManuscript()
+    {
+        GrayBG.SetActive(true);
+        Candle.SetActive(true);
+    }
+    public void NoteBookWithSketch()
+    {
+        GrayBG.SetActive(true);
+        NotebookWithSketch.SetActive(true);
+    }
+    public void Glasses()
+    {
+        GrayBG.SetActive(true);
+        Eyeglasses.SetActive(true);
+    }
+    public void Noli()
+    {
+        GrayBG.SetActive(true);
+        NoliMeTangere.SetActive(true);
+    }
 }
