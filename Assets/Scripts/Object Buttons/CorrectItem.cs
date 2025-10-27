@@ -1,7 +1,9 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CorrectItem : MonoBehaviour
 {
+    public string sceneName;
     public int ItemCount;
     public ItemTracker itemTracker;
     public CountdownTimer timer;
@@ -23,6 +25,13 @@ public class CorrectItem : MonoBehaviour
     public GameObject Map;
     public GameObject LaSolidaridad;
 
+    public void Update()
+    {
+        if (ItemCount == 15)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
+    }
     public void UnsentLetters()
     {
         timer.PauseTimer();
@@ -174,4 +183,5 @@ public class CorrectItem : MonoBehaviour
         GrayBG.SetActive(true);
         LaSolidaridad.SetActive(true);
     }
+    
 }
