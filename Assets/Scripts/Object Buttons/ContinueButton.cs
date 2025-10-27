@@ -40,6 +40,59 @@ public class ContinueButton : MonoBehaviour
     public GameObject NoliContinue1;
     public GameObject NoliContinue2;
 
+    public GameObject Watch;
+    public GameObject WatchText1;
+    public GameObject WatchText2;
+    public GameObject WatchContinue1;
+    public GameObject WatchContinue2;
+
+    public GameObject Plant;
+    public GameObject PlantText1;
+    public GameObject PlantText2;
+    public GameObject PlantContinue1;
+    public GameObject PlantContinue2;
+
+    public GameObject Mirror;
+    public GameObject MirrorText1;
+    public GameObject MirrorText2;
+    public GameObject MirrorContinue1;
+    public GameObject MirrorContinue2;
+
+    public GameObject Letter;
+    public GameObject LetterText1;
+    public GameObject LetterText2;
+    public GameObject LetterContinue1;
+    public GameObject LetterContinue2;
+
+    public GameObject Crucifix;
+    public GameObject CrucifixText1;
+    public GameObject CrucifixText2;
+    public GameObject CrucifixContinue1;
+    public GameObject CrucifixContinue2;
+
+    public GameObject WineGlass;
+    public GameObject WineGlassText1;
+    public GameObject WineGlassText2;
+    public GameObject WineGlassContinue1;
+    public GameObject WineGlassContinue2;
+
+    public GameObject Scalpel;
+    public GameObject ScalpelText1;
+    public GameObject ScalpelText2;
+    public GameObject ScalpelContinue1;
+    public GameObject ScalpelContinue2;
+
+    public GameObject Map;
+    public GameObject MapText1;
+    public GameObject MapText2;
+    public GameObject MapContinue1;
+    public GameObject MapContinue2;
+    
+    public GameObject LaSolidaridad;
+    public GameObject LaSolidaridadText1;
+    public GameObject LaSolidaridadText2;
+    public GameObject LaSolidaridadContinue1;
+    public GameObject LaSolidaridadContinue2;
 
     public void NextPage()
     {
@@ -128,5 +181,126 @@ public class ContinueButton : MonoBehaviour
     {
         GrayBG.SetActive(false);
         Noli.SetActive(false);
+    }
+
+    public void WatchOpen()
+    {
+        Watch.SetActive(true);
+        WatchText1.SetActive(false);
+        WatchText2.SetActive(true);
+        WatchContinue1.SetActive(false);
+        WatchContinue2.SetActive(true);
+    }
+    public void WatchClose()
+    {
+        GrayBG.SetActive(false);
+        Watch.SetActive(false);
+    }
+
+    public void PlantOpen()
+    {
+        Plant.SetActive(true);
+        PlantText1.SetActive(false);
+        PlantText2.SetActive(true);
+        PlantContinue1.SetActive(false);
+        PlantContinue2.SetActive(true);
+    }
+    public void PlantClose()
+    {
+        GrayBG.SetActive(false);
+        Plant.SetActive(false);
+    }
+    public void MirrorOpen()
+    {
+        Mirror.SetActive(true);
+        MirrorText1.SetActive(false);
+        MirrorText2.SetActive(true);
+        MirrorContinue1.SetActive(false);
+        MirrorContinue2.SetActive(true);
+    }
+    public void MirrorClose()
+    {
+        GrayBG.SetActive(false);
+        Mirror.SetActive(false);
+    }
+    public void LetterOpen()
+    {
+        Letter.SetActive(true);
+        LetterText1.SetActive(false);
+        LetterText2.SetActive(true);
+        LetterContinue1.SetActive(false);
+        LetterContinue2.SetActive(true);
+    }
+    public void LetterClose()
+    {
+        GrayBG.SetActive(false);
+        Letter.SetActive(false);
+    }
+
+    public void CrucifixOpen()
+    {
+        Crucifix.SetActive(true);
+        CrucifixText1.SetActive(false);
+        CrucifixText2.SetActive(true);
+        CrucifixContinue1.SetActive(false);
+        CrucifixContinue2.SetActive(true);
+    }
+    public void CrucifixClose()
+    {
+        GrayBG.SetActive(false);
+        Crucifix.SetActive(false);
+    }
+
+    public void WineGlassOpen()
+    {
+        WineGlass.SetActive(true);
+        WineGlassText1.SetActive(false);
+        WineGlassText2.SetActive(true);
+        WineGlassContinue1.SetActive(false);
+        WineGlassContinue2.SetActive(true);
+    }
+    public void WineGlassClose()
+    {
+        GrayBG.SetActive(false);
+        WineGlass.SetActive(false);
+    }
+    public void ScalpelOpen()
+    {
+        Scalpel.SetActive(true);
+        ScalpelText1.SetActive(false);
+        ScalpelText2.SetActive(true);
+        ScalpelContinue1.SetActive(false);
+        ScalpelContinue2.SetActive(true);
+    }
+    public void ScalpelClose()
+    {
+        GrayBG.SetActive(false);
+        Scalpel.SetActive(false);
+    }
+    public void MapOpen()
+    {
+        Map.SetActive(true);
+        MapText1.SetActive(false);
+        MapText2.SetActive(true);
+        MapContinue1.SetActive(false);
+        MapContinue2.SetActive(true);
+    }
+    public void MapClose()
+    {
+        GrayBG.SetActive(false);
+        Map.SetActive(false);
+    }
+    public void LaSolidaridadOpen()
+    {
+        LaSolidaridad.SetActive(true);
+        LaSolidaridadText1.SetActive(false);
+        LaSolidaridadText2.SetActive(true);
+        LaSolidaridadContinue1.SetActive(false);
+        LaSolidaridadContinue2.SetActive(true);
+    }
+    public void LaSolidaridadClose()
+    {
+        GrayBG.SetActive(false);
+        LaSolidaridad.SetActive(false);
     }
 }
