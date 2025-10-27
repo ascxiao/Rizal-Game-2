@@ -4,8 +4,9 @@ using TMPro;
 public class CountdownTimer : MonoBehaviour
 {
     public float timeRemaining = 150f; 
-    public TextMeshProUGUI timerText; 
+    public TextMeshProUGUI timerText;
     private bool timerRunning = true;
+    public GameObject GameFailed;
 
     void Update()
     {
@@ -21,7 +22,7 @@ public class CountdownTimer : MonoBehaviour
                 timeRemaining = 0;
                 timerRunning = false;
                 DisplayTime(timeRemaining);
-                // Timer finished: Insert your end-game logic here
+                GameFailed.SetActive(true);
             }
         }
     }

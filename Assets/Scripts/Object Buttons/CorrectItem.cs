@@ -25,7 +25,7 @@ public class CorrectItem : MonoBehaviour
     public GameObject Map;
     public GameObject LaSolidaridad;
 
-    public void Update()
+    public void LateUpdate()
     {
         if (ItemCount == 15)
         {
