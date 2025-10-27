@@ -10,4 +10,16 @@ public class CursorManager : MonoBehaviour
     {
         Cursor.SetCursor(customCursor, hotSpot, cursorMode);
     }
+
+    void Update()
+    {
+        // Detect any mouse click
+        if (Input.GetMouseButtonDown(0)) // 0 = left click
+        {
+            if (AudioManager.Instance != null)
+            {
+                AudioManager.Instance.PlayClickSFX();
+            }
+        }
+    }
 }
