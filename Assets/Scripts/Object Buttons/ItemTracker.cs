@@ -7,7 +7,7 @@ public class ItemTracker : MonoBehaviour
 
     public void UpdateCount() 
     {
-        countText.text = "Items Found: " + itemCounter.ItemCount.ToString();
+        countText.text = "Items Found: " + itemCounter.ItemCount.ToString() + "/15";
     }
 
 }

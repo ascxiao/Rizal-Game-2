@@ -31,7 +31,7 @@ public class CountdownTimer : MonoBehaviour
         timeToDisplay = Mathf.Max(timeToDisplay, 0);
         int minutes = Mathf.FloorToInt(timeToDisplay / 60);
         int seconds = Mathf.FloorToInt(timeToDisplay % 60);
-        timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+        timerText.text = string.Format("Time Remaining: {0:00}:{1:00}", minutes, seconds);
     }
 
     public void PauseTimer()
