@@ -114,7 +114,7 @@ public class ContinueButton : MonoBehaviour
         ContinueBTN2.SetActive(false);
         timer.ResumeTimer();
 
-        if (correctItem.fifteenItems = true)
+        if (correctItem.fifteenItems == true)
         {
             SceneManager.LoadScene(sceneName);
         }
@@ -135,7 +135,7 @@ public class ContinueButton : MonoBehaviour
         Draft.SetActive(false);
         timer.ResumeTimer();
 
-        if (correctItem.fifteenItems = true)
+        if (correctItem.fifteenItems == true)
         {
             SceneManager.LoadScene(sceneName);
         }
@@ -156,7 +156,7 @@ public class ContinueButton : MonoBehaviour
         Candle.SetActive(false);
         timer.ResumeTimer();
 
-        if (correctItem.fifteenItems = true)
+        if (correctItem.fifteenItems == true)
         {
             SceneManager.LoadScene(sceneName);
         }
@@ -176,7 +176,7 @@ public class ContinueButton : MonoBehaviour
         Sketch.SetActive(false);
         timer.ResumeTimer();
 
-        if (correctItem.fifteenItems = true)
+        if (correctItem.fifteenItems == true)
         {
             SceneManager.LoadScene(sceneName);
         }
@@ -197,7 +197,7 @@ public class ContinueButton : MonoBehaviour
         Eyeglasses.SetActive(false);
         timer.ResumeTimer();
 
-        if (correctItem.fifteenItems = true)
+        if (correctItem.fifteenItems == true)
         {
             SceneManager.LoadScene(sceneName);
         }
@@ -217,7 +217,7 @@ public class ContinueButton : MonoBehaviour
         Noli.SetActive(false);
         timer.ResumeTimer();
 
-        if (correctItem.fifteenItems = true)
+        if (correctItem.fifteenItems == true)
         {
             SceneManager.LoadScene(sceneName);
         }
@@ -237,7 +237,7 @@ public class ContinueButton : MonoBehaviour
         Watch.SetActive(false);
         timer.ResumeTimer();
 
-        if (correctItem.fifteenItems = true)
+        if (correctItem.fifteenItems == true)
         {
             SceneManager.LoadScene(sceneName);
         }
@@ -257,7 +257,7 @@ public class ContinueButton : MonoBehaviour
         Plant.SetActive(false);
         timer.ResumeTimer();
 
-        if (correctItem.fifteenItems = true)
+        if (correctItem.fifteenItems == true)
         {
             SceneManager.LoadScene(sceneName);
         }
@@ -276,7 +276,7 @@ public class ContinueButton : MonoBehaviour
         Mirror.SetActive(false);
         timer.ResumeTimer();
 
-        if (correctItem.fifteenItems = true)
+        if (correctItem.fifteenItems == true)
         {
             SceneManager.LoadScene(sceneName);
         }
@@ -295,7 +295,7 @@ public class ContinueButton : MonoBehaviour
         Letter.SetActive(false);
         timer.ResumeTimer();
 
-        if (correctItem.fifteenItems = true)
+        if (correctItem.fifteenItems == true)
         {
             SceneManager.LoadScene(sceneName);
         }
@@ -315,7 +315,7 @@ public class ContinueButton : MonoBehaviour
         Crucifix.SetActive(false);
         timer.ResumeTimer();
 
-        if (correctItem.fifteenItems = true)
+        if (correctItem.fifteenItems == true)
         {
             SceneManager.LoadScene(sceneName);
         }
@@ -335,7 +335,7 @@ public class ContinueButton : MonoBehaviour
         WineGlass.SetActive(false);
         timer.ResumeTimer();
 
-        if (correctItem.fifteenItems = true)
+        if (correctItem.fifteenItems == true)
         {
             SceneManager.LoadScene(sceneName);
         }
@@ -354,7 +354,7 @@ public class ContinueButton : MonoBehaviour
         Scalpel.SetActive(false);
         timer.ResumeTimer();
 
-        if (correctItem.fifteenItems = true)
+        if (correctItem.fifteenItems == true)
         {
             SceneManager.LoadScene(sceneName);
         }
@@ -373,7 +373,7 @@ public class ContinueButton : MonoBehaviour
         Map.SetActive(false);
         timer.ResumeTimer();
 
-        if (correctItem.fifteenItems = true)
+        if (correctItem.fifteenItems == true)
         {
             SceneManager.LoadScene(sceneName);
         }
@@ -392,7 +392,7 @@ public class ContinueButton : MonoBehaviour
         LaSolidaridad.SetActive(false);
         timer.ResumeTimer();
 
-        if (correctItem.fifteenItems = true)
+        if (correctItem.fifteenItems == true)
         {
             SceneManager.LoadScene(sceneName);
         }

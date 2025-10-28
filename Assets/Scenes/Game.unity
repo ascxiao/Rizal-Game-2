@@ -222,10 +222,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 952a4e5389f21a8499ca04083fe00c6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  sceneName: Game Cutscene 4
   GrayBG: {fileID: 1132143062}
   timer: {fileID: 1231786729}
-  correctItem: {fileID: 0}
+  correctItem: {fileID: 2130078291}
   UnsentLetters: {fileID: 2134029974}
   UnsentLetters1: {fileID: 958784903}
   UnsentLetters2: {fileID: 840901044}
@@ -11247,7 +11247,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Rizal exchanged over 500 letters throughout his life (1880\u20131896),
+  m_text: "Rizal exchanged over 300 letters throughout his life (1880\u20131896),
     many with family and intellectuals. Some drafts, like his unsent letters to Leonor
     Rivera, reveal his struggle between love and duty \u2014 written between 1882\u20131886
     while he was in Europe studying."
