@@ -47,5 +47,5 @@ MonoBehaviour:
   mainMenuBGM: {fileID: 8300000, guid: 9843c0717972993468c9780db9fcae46, type: 3}
   cutsceneBGM: {fileID: 8300000, guid: 9304edd47fe20be458f6fabb4b11b485, type: 3}
   gameBGM: {fileID: 8300000, guid: 813ebde9f0d6b31418ae903a25ed96c9, type: 3}
-  clickSFX: {fileID: 8300000, guid: 11006c52a1b875e40b2973d5c16865dc, type: 3}
+  clickSFX: {fileID: 8300000, guid: 8d400a8d7478b91409444bca416e5cba, type: 3}
   volumeIncrement: 0.1
