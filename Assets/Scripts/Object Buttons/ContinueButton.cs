@@ -1,9 +1,12 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ContinueButton : MonoBehaviour
 {
+    public string sceneName;
     public GameObject GrayBG;
     public CountdownTimer timer;
+    public CorrectItem correctItem;
 
     public GameObject UnsentLetters;
     public GameObject UnsentLetters1;
@@ -110,6 +113,11 @@ public class ContinueButton : MonoBehaviour
         UnsentLetters2.SetActive(false);
         ContinueBTN2.SetActive(false);
         timer.ResumeTimer();
+
+        if (correctItem.fifteenItems = true)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
 
     public void DraftNextPage()
@@ -126,6 +134,11 @@ public class ContinueButton : MonoBehaviour
         GrayBG.SetActive(false);
         Draft.SetActive(false);
         timer.ResumeTimer();
+
+        if (correctItem.fifteenItems = true)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
 
     public void CandleManuscript()
@@ -142,6 +155,11 @@ public class ContinueButton : MonoBehaviour
         GrayBG.SetActive(false);
         Candle.SetActive(false);
         timer.ResumeTimer();
+
+        if (correctItem.fifteenItems = true)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
 
     public void NoteBookWithSketch()
@@ -157,6 +175,11 @@ public class ContinueButton : MonoBehaviour
         GrayBG.SetActive(false);
         Sketch.SetActive(false);
         timer.ResumeTimer();
+
+        if (correctItem.fifteenItems = true)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
 
     public void GlassesOpen()
@@ -173,6 +196,11 @@ public class ContinueButton : MonoBehaviour
         GrayBG.SetActive(false);
         Eyeglasses.SetActive(false);
         timer.ResumeTimer();
+
+        if (correctItem.fifteenItems = true)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
 
     public void NoliOpen()
@@ -188,6 +216,11 @@ public class ContinueButton : MonoBehaviour
         GrayBG.SetActive(false);
         Noli.SetActive(false);
         timer.ResumeTimer();
+
+        if (correctItem.fifteenItems = true)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
 
     public void WatchOpen()
@@ -203,6 +236,11 @@ public class ContinueButton : MonoBehaviour
         GrayBG.SetActive(false);
         Watch.SetActive(false);
         timer.ResumeTimer();
+
+        if (correctItem.fifteenItems = true)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
 
     public void PlantOpen()
@@ -218,6 +256,11 @@ public class ContinueButton : MonoBehaviour
         GrayBG.SetActive(false);
         Plant.SetActive(false);
         timer.ResumeTimer();
+
+        if (correctItem.fifteenItems = true)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
     public void MirrorOpen()
     {
@@ -232,6 +275,11 @@ public class ContinueButton : MonoBehaviour
         GrayBG.SetActive(false);
         Mirror.SetActive(false);
         timer.ResumeTimer();
+
+        if (correctItem.fifteenItems = true)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
     public void LetterOpen()
     {
@@ -246,6 +294,11 @@ public class ContinueButton : MonoBehaviour
         GrayBG.SetActive(false);
         Letter.SetActive(false);
         timer.ResumeTimer();
+
+        if (correctItem.fifteenItems = true)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
 
     public void CrucifixOpen()
@@ -261,6 +314,11 @@ public class ContinueButton : MonoBehaviour
         GrayBG.SetActive(false);
         Crucifix.SetActive(false);
         timer.ResumeTimer();
+
+        if (correctItem.fifteenItems = true)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
 
     public void WineGlassOpen()
@@ -276,6 +334,11 @@ public class ContinueButton : MonoBehaviour
         GrayBG.SetActive(false);
         WineGlass.SetActive(false);
         timer.ResumeTimer();
+
+        if (correctItem.fifteenItems = true)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
     public void ScalpelOpen()
     {
@@ -290,6 +353,11 @@ public class ContinueButton : MonoBehaviour
         GrayBG.SetActive(false);
         Scalpel.SetActive(false);
         timer.ResumeTimer();
+
+        if (correctItem.fifteenItems = true)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
     public void MapOpen()
     {
@@ -304,6 +372,11 @@ public class ContinueButton : MonoBehaviour
         GrayBG.SetActive(false);
         Map.SetActive(false);
         timer.ResumeTimer();
+
+        if (correctItem.fifteenItems = true)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
     public void LaSolidaridadOpen()
     {
@@ -318,5 +391,10 @@ public class ContinueButton : MonoBehaviour
         GrayBG.SetActive(false);
         LaSolidaridad.SetActive(false);
         timer.ResumeTimer();
+
+        if (correctItem.fifteenItems = true)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
 }

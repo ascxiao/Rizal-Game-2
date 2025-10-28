@@ -5,6 +5,7 @@ public class CorrectItem : MonoBehaviour
 {
     public string sceneName;
     public int ItemCount;
+    public bool fifteenItems = false;
     public ItemTracker itemTracker;
     public CountdownTimer timer;
 
@@ -29,7 +30,8 @@ public class CorrectItem : MonoBehaviour
     {
         if (ItemCount == 15)
         {
-            SceneManager.LoadScene(sceneName);
+            // SceneManager.LoadScene(sceneName);
+            fifteenItems = true;
         }
     }
     public void UnsentLetters()
