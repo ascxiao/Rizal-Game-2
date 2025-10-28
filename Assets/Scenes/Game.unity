@@ -222,8 +222,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 952a4e5389f21a8499ca04083fe00c6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: 
   GrayBG: {fileID: 1132143062}
   timer: {fileID: 1231786729}
+  correctItem: {fileID: 0}
   UnsentLetters: {fileID: 2134029974}
   UnsentLetters1: {fileID: 958784903}
   UnsentLetters2: {fileID: 840901044}
@@ -28570,8 +28572,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 952a4e5389f21a8499ca04083fe00c6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: 
   GrayBG: {fileID: 1132143062}
   timer: {fileID: 1231786729}
+  correctItem: {fileID: 0}
   UnsentLetters: {fileID: 1798568783}
   UnsentLetters1: {fileID: 621245100}
   UnsentLetters2: {fileID: 231827427}
@@ -29978,6 +29982,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: Game Cutscene 4
   ItemCount: 0
+  fifteenItems: 0
   itemTracker: {fileID: 460353186}
   timer: {fileID: 1231786729}
   GrayBG: {fileID: 1132143062}

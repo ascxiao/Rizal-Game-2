@@ -20,7 +20,7 @@ public class AudioManager : MonoBehaviour
     [Header("Volume Settings")]
     private float bgmVolume = 1f;
     private float sfxVolume = 1f;
-    public float volumeIncrement = 0.1f; // 10% increments (or use 0.05f for 5%)
+    public float volumeIncrement = 0.1f; 
 
     [Header("Scene Names")]
     private const string MAIN_MENU = "MainMenu";
