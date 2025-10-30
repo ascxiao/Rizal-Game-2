@@ -459,7 +459,7 @@ MonoBehaviour:
     That\u2019s\u2026 strange."
   - "Alright\u2026 maybe this is his way of letting me in."
   - (steps inside as the light fades slightly)
-  textSpeed: 0.1
+  textSpeed: 0.01
   scene: 3
 --- !u!1 &915981127
 GameObject:

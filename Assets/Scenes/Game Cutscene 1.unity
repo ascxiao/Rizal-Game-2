@@ -398,7 +398,7 @@ MonoBehaviour:
     the person behind it \u2014 how he lived, what he loved, what he left behind."
   - "Maybe inside, I\u2019ll finally find the pieces that connect his story to mine."
   - "Alright, Lolo Jose\u2026 let\u2019s see what you\u2019ve left for me to discover."
-  textSpeed: 0.1
+  textSpeed: 0.01
   scene: 2
 --- !u!1 &915981127
 GameObject:

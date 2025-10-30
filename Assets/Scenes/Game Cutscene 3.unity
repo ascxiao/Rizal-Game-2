@@ -400,7 +400,7 @@ MonoBehaviour:
   - "It feels like he\u2019s guiding me \u2014 like each item I find is a step closer
     to understanding not just his story\u2026 but my own."
   - "Alright, Lolo Jose. Let\u2019s see what you\u2019ve left behind for me to discover."
-  textSpeed: 0.1
+  textSpeed: 0.01
   scene: 4
 --- !u!1 &915981127
 GameObject:

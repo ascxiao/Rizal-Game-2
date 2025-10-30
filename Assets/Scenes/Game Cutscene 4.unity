@@ -405,7 +405,7 @@ MonoBehaviour:
     pride\u2026 It\u2019s about compassion, intellect, and the will to keep seeking
     truth."
   - "Maybe that\u2019s the direction we\u2019ve been needing all along."
-  textSpeed: 0.1
+  textSpeed: 0.01
   scene: 6
 --- !u!1 &915981127
 GameObject:
